@@ -21,11 +21,11 @@ export class SdkComponent implements OnInit {
     codesRepos = [
         {
             title: 'iNaviCore SDK仓库 (for iOS)',
-            link: 'https://gitlab.mapbar.com/navicore/iNaviCore'
+            link: 'https://gitlab.navinfo.com/rainbow/navicore/iNaviCore'
         },
         {
             title: 'jNaviCore SDK仓库 (for Android)',
-            link: 'https://gitlab.mapbar.com/navicore/jNaviCore'
+            link: 'https://gitlab.navinfo.com/rainbow/navicore/jNaviCore'
         }
     ];
 
