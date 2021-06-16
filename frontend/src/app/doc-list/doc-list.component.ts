@@ -129,7 +129,7 @@ export class DocListComponent implements OnInit, OnDestroy {
         const moduleDocuments = [];
         [
             'jnavicore-developer-guide',
-            'routing',
+            'routing-design-docs',
             'poi-nc',
             'map-render-nc',
             'junction-view',
