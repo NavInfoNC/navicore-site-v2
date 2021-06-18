@@ -47,7 +47,7 @@ export async function isUserAuthorized(dirName: string, username: string): Promi
         const file = await fs.readFile(`docs/${dirName}/authorize.txt`, 'utf8');
         const lines = file.split('\n').map(o => o.trim());
         for (const line of lines) {
-            if (line === '*' || line === username || `${line}@mapbar.com` === username) {
+            if (line === '*' || line === username || `${line}@mapbar.com` === username || `${line}@navinfo.com` === username) {
                 return true;
             }
         }
